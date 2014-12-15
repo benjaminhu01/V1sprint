@@ -1,0 +1,14 @@
+
+2500	600	8000	22	%(ms) High pass, Suppression HP, RMS, and Suppress LP buffers - "HighPass" 1st value only
+2500	2500		        %(ms) Guard Buffer,  Keep Buffer -  "Buffer" 1st value only
+6000	12000 			%(ms) Artifact Window Limit >> increases Guard - "Window"  Both Values
+1.25				%Overrange Amplitude -  "Movement" 1st value only
+1000    20			%dV1, dt1 ms -          "Slope" Both Vaulues (100uV in 20mS)
+2500	20	28		%dV2, dt1 ms, dt2 ms -  "Spike" All Values (250 units 20mS is UP, 28mS is Down)
+4000	200	300		%dV3, dt1 ms, dt2 ms -  "Blink" All Values  (4000 units 200mS is UP, 300mS is Down)
+4000 4000 4000 4000 3000 3000 3000 3000 3000 3000
+0.5 				%BurstSuppresion (microVolts RMS) -  IGNORE
+0.5  0.5  0.5  0.5  0.25  0.25  0.25  0.25  0.25  0.25
+5.0    100.0			%RMS scale Factor, lower limit (in microVolts) -  IGNORE
+
+

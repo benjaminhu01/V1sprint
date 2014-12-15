@@ -1,0 +1,239 @@
+Normal			vs	"Abnormal,"	Age	50	or	Older	|Normal|	Abnormal|	2
+NRP	12977	BRHeadD	9	Bipolar Relative Power #Delta for Head							
+NRP	12978	BRHeadT	22	Bipolar Relative Power #Theta for Head							
+NRP	12979	BRHeadA	35	Bipolar Relative Power #Alpha for Head							
+NRP	12980	BRHeadB	48	Bipolar Relative Power #Beta for Head							
+NCO	12768	BCPostC	34	Bipolar Coherence #Combined for Posterior							
+NCO	12763	BCAntC	35	Bipolar Coherence #Combined for Anterior							
+NAS	13032	BSPostC	41	Bipolar Asymmetry #Combined for Posterior							
+NAS	13027	BSAntC	42	Bipolar Asymmetry #Combined for Anterior							
+ZAP	12582	MAAntC	213	Monopolar Absolute Power #Combined for Anterior							
+ZAP	12592	MAPostC	215	Monopolar Absolute Power #Combined for Posterior							
+											
+Normal			vs	"Abnormal,"	Below	Age	50	|Normal|	Abnormal|	2	
+NRP	12977	BRHeadD	9	Bipolar Relative Power #Delta for Head							
+NRP	12978	BRHeadT	22	Bipolar Relative Power #Theta for Head							
+NRP	12979	BRHeadA	35	Bipolar Relative Power #Alpha for Head							
+NRP	12980	BRHeadB	48	Bipolar Relative Power #Beta for Head							
+NCO	12768	BCPostC	34	Bipolar Coherence #Combined for Posterior							
+NCO	12763	BCAntC	35	Bipolar Coherence #Combined for Anterior							
+NAS	13032	BSPostC	41	Bipolar Asymmetry #Combined for Posterior							
+NAS	13027	BSAntC	42	Bipolar Asymmetry #Combined for Anterior							
+ZAP	12582	MAAntC	213	Monopolar Absolute Power #Combined for Anterior							
+ZAP	12592	MAPostC	214	Monopolar Absolute Power #Combined for Central							
+											
+Normal			vs	Primary	Depression	|Normal|	Primary|	2			
+NRP		BRT3F7S	124	Bipolar Relative Power #Total for T3-F7							
+NCO		BCPOcD	3	Bipolar Coherence #Delta for Parieto-occipital							
+NCO	12763	BCAntC	35	Bipolar Coherence #Combined for Anterior							
+NAS		BSCentB	36	Bipolar Asymmetry #Beta for Central							
+NAS	13027	BSAntC	42	Bipolar Asymmetry #Combined for Anterior							
+ZRP		MRMidL	217	Monopolar Relative Power #Low for Midline							
+											
+Normal			vs	Primary	Depression	vs	Dementia	|Normal|	Primary|	Dementia|	3
+NRP	12978	BRHeadT	22	Bipolar Relative Power #Theta for Head							
+NRP		BRT3F7S	124	Bipolar Relative Power #Total for T3-F7							
+NCO		BCPOcD	3	Bipolar Coherence #Delta for Parieto-occipital							
+NCO		BCFTD	4	Bipolar Coherence #Delta for Frontotemporal							
+NCO	12763	BCAntC	35	Bipolar Coherence #Combined for Anterior							
+NAS		BSCentB	36	Bipolar Asymmetry #Beta for Central							
+NAS	13027	BSAntC	42	Bipolar Asymmetry #Combined for Anterior							
+ZRP	1958	MRCzT	37	Monopolar Relative Power #Theta for Cz							
+ZRP	1966	MRP3A	45	Monopolar Relative Power #Alpha for P3							
+ZRP	1968	MRO1A	47	Monopolar Relative Power #Alpha for O1							
+ZRP			217	Monopolar Relative Power #Low for Midline							
+											
+Unipolar			vs	Bipolar	Depression	|Unipolar|	Bipolar|	2			
+NRP	6428	BRT3T5A	29	Bipolar Relative Power #Alpha for T3-T5							
+NRP	6434	BRT4T6A	30	Bipolar Relative Power #Alpha for T4-T6							
+NRP	6605	BRT4T6B	43	Bipolar Relative Power #Beta for T4-T6							
+NAS		BSFTS	4	Bipolar Asymmetry #Total for Frontotemporal							
+ZRP	12697	MRLPosA	187	Monopolar Relative Power #Alpha for Left Posterior							
+ZRP		MRC3B	62	Monopolar Relative Power #Beta for C3							
+ZRP		MRCzB	75	Monopolar Relative Power #Beta for Cz							
+ZAS		MIO1O2D	13	Monopolar Asymmetry #Delta for O1-O2							
+											
+Elderly			Dementia	vs	Alcoholic	|Dementia|	Alcoholic|	2			
+NRP		BRCzC3T	14	Bipolar Relative Power #Theta for Cz-C3							
+NRP		BRCzC4T	15	Bipolar Relative Power #Theta for Cz-C4							
+NRP		BRCzC3B	40	Bipolar Relative Power #Beta for Cz-C3							
+NCO		BCPOcB	24	Bipolar Coherence #Beta for Parieto-occipital							
+ZAS		MIC3C4T	19	Monopolar Asymmetry #Theta for C3-C4							
+											
+Bipolar			Depression	vs	Alcoholic	|Bipolar|	Alcoholic|	2			
+NRP		BRO2P4B	45	Bipolar Relative Power #Beta for O2-P4							
+NCO		BCPOcD	3	Bipolar Coherence #Delta for Parieto-occipital							
+NCO		BCFTD	4	Bipolar Coherence #Delta for Frontotemporal							
+NCO		BCPOcB	24	Bipolar Coherence #Beta for Parieto-occipital							
+NAS		BSPostC	41	Bipolar Asymmetry #Combined for Posterior							
+ZAP		MAF3B	55	Monopolar Absolute Power #Beta for F3							
+ZRP		MRLHemB	202	Monopolar Relative Power #Beta for Left Hemisphere							
+											
+Unipolar			Depression	vs	Alcoholic	|Unipolar|	Alcoholic|	2			
+NRP		BRCzC3B	40	Bipolar Relative Power #Beta for Cz-C3							
+NRP		BRT3F7B	46	Bipolar Relative Power #Beta for T3-F7							
+NRP		BRCzC3S	118	Bipolar Relative Power #Total for Cz-C3							
+NCO		BCFTD	4	Bipolar Coherence #Delta for Frontotemporal							
+NCO		BCPOcB	24	Bipolar Coherence #Beta for Parieto-occipital							
+NAS		BSPOcC	41	Bipolar Asymmetry #Combined for Posterior							
+											
+Primary			Depression	vs	Alcoholic	|Primary|	Alcoholic|	2			
+NRP		BRCzC3B	40	Bipolar Relative Power #Beta for Cz-C3							
+NRP		BRT3F7B	46	Bipolar Relative Power #Beta for T3-F7							
+NRP		BRT4F8S	125	Bipolar Relative Power #Total for T4-F8							
+NCO		BCFTD	4	Bipolar Coherence #Delta for Frontotemporal							
+NCO		BCFTB	25	Bipolar Coherence #Beta for Frontotemporal							
+NAS		BSPostB	34	Bipolar Asymmetry #Beta for Posterior							
+ZRP		MRFzT	36	Monopolar Relative Power #Theta for Fz							
+											
+Normal			vs	Alcoholic	|Normal|	Alcoholic|	2				
+NRP		BRT3F7A	33	Bipolar Relative Power #Alpha for T3-F7							
+NRP		BRCzC3B	40	Bipolar Relative Power #Beta for Cz-C3							
+NRP		BRO2P4B	45	Bipolar Relative Power #Beta for O2-P4							
+NRP		BRCzC4S	119	Bipolar Relative Power #Total for Cz-C4							
+NAS		BSHeadC	40	Bipolar Asymmetry #Combined for Head							
+ZCO		COAntC	81	Monopolar Coherence #Combined for Anterior							
+											
+Vascular			vs	Non-vascular	Elderly	Dementia	|Non-Vascular|	Vascular|	2		
+NCO		BCAntC	35	Bipolar Coherence #Combined for Anterior							
+NAS		BSAntD	14	Bipolar Asymmetry #Delta for Anterior							
+ZAP		MAPostD	147	Monopolar Absolute Power #Delta for Posterior							
+ZRP		MRLAntD	157	Monopolar Relative Power #Delta for Left Anterior							
+ZRP		MRMidD	165	Monopolar Relative Power #Delta for Midline							
+ZCO		MCHeadA	72	Monopolar Coherence #Alpha for Head							
+											
+Normal			vs	Learning	Disabled	Children	|Normal|	Learning_Disabled|	2		
+NRP		BRCzC3A	27	Bipolar Relative Power #Alpha for Cz-C3							
+NRP		BRCzC4A	28	Bipolar Relative Power #Alpha for Cz-C4							
+NRP		BRT3T5A	29	Bipolar Relative Power #Alpha for T3-T5							
+NRP		BRT4T6A	30	Bipolar Relative Power #Alpha for T4-T6							
+NRP		BRO1P3A	31	Bipolar Relative Power #Alpha for O1-P3							
+NRP		BRO2P4A	32	Bipolar Relative Power #Alpha for O2-P4							
+NRP		BRT3F7A	33	Bipolar Relative Power #Alpha for T3-F7							
+NRP		BRT4F8A	34	Bipolar Relative Power #Alpha for T4-F8							
+NAS		BAHeadB	33	Bipolar Asymmetry #Beta for Head							
+NOM		OVPost	6	Bipolar Overall Measures (Z) #Overall for Posterior							
+ZAP		MAforF7C	76	Monopolar Absolute Power #Combined for F7							
+ZRP		MRPzA	57	Monopolar Relative Power #Alpha for Pz							
+ZAS		MAF3F4S	2	Monopolar Asymmetry #Total for F3-F4							
+ZCO		COF3F4T	18	Monopolar Coherence #Theta for F3-F4							
+ZCO		MCHeadC	84	Monopolar Coherence #Combined for Head							
+											
+Normal			vs	Adult	Schizophrenic	|Normal|	Schizophrenic|	2			
+NRP		BRO2P4A	32	Bipolar Relative Power #Alpha for O2-P4							
+NCO		BCPostA	20	Bipolar Coherence #Alpha for Posterior							
+NCO		BCTempC	30	Bipolar Coherence #Combined for Temporal							
+ZAP		MALLatC	200	Monopolar Absolute Power #Combined for Left Lateral							
+ZMF		MFO1A	66	Monopolar Mean Frequency #Alpha for O1							
+ZCO		COP3P4T	20	Monopolar Coherence #Theta for P3-P4							
+ZCO		COT3T4B	39	Monopolar Coherence #Beta for T3-T4							
+ZCO		COCentC	82	Monopolar Coherence #Combined for Central							
+											
+Ritalin			Responder	vs	Non-responder	|Responder|	Non-Responder|	2			
+NRP		BRT4F8D	8	Bipolar Relative Power #Delta for T4-F8							
+NRP		BRFitT4F8	86	Bipolar Relative Power #Best Fit for T4-F8							
+NCO		BCAntT	14	Bipolar Coherence #Theta for Anterior							
+NCO		BCCentA	15	Bipolar Coherence #Alpha for Central							
+NCO		BCPOcB	24	Bipolar Coherence #Beta for Parieto-occipital							
+											
+Normal			vs	Mild	Head	Injury	|Normal|	Head-Injured|	2		
+NCO		BCCentT	8	Bipolar Coherence #Theta for Central							
+NAS		BSTempT	16	Bipolar Asymmetry #Theta for Temporal							
+ZAP		MAC3B	57	Monopolar Absolute Power #Beta for C3							
+ZRP		MRRAntFD	262	Monopolar Relative Power #Functional Deviation for Right Anterior							
+ZRP		MRLCentFD	263	Monopolar Relative Power #Functional Deviation for Left Central							
+ZMF		MFT3C	108	Monopolar Mean Frequency #Combined for T3							
+ZMF		MFT4C	109	Monopolar Mean Frequency #Combined for T4							
+ZMF		MFT5C	110	Monopolar Mean Frequency #Combined for T5							
+ZMF		MFT6C	111	Monopolar Mean Frequency #Combined for T6							
+ZAS		MIF3F4S	2	Monopolar Asymmetry #Total for F3-F4							
+ZIA		MIF7T5C	43	Monopolar Intrahemispheric Asymmetry #Combined for F7-T5							
+ZIA		MIF8T6C	44	Monopolar Intrahemispheric Asymmetry #Combined for F8-T6							
+ZCO		COF3F4A	26	Monopolar Coherence #Alpha for F3-F4							
+											
+Normal			vs	Mild	Head	Injury	(Test	2)	|Normal|	Head-Injured|	2
+NCO		BCCentT	8	Bipolar Coherence #Theta for Central							
+NAS		BSTempT	16	Bipolar Asymmetry #Theta for Temporal							
+ZAP		MAC3B	57	Monopolar Absolute Power #Beta for C3							
+ZMF		MFT3C	108	Monopolar Mean Frequency #Combined for T3							
+ZMF		MFT4C	109	Monopolar Mean Frequency #Combined for T4							
+ZMF		MFT5C	110	Monopolar Mean Frequency #Combined for T5							
+ZMF		MFT6C	111	Monopolar Mean Frequency #Combined for T6							
+ZAS		MIF3F4S	2	Monopolar Asymmetry #Total for F3-F4							
+ZIA		MIF7T5C	43	Monopolar Intrahemispheric Asymmetry #Combined for F7-T5							
+ZIA		MIF8T6C	44	Monopolar Intrahemispheric Asymmetry #Combined for F8-T6							
+ZCO		MCF3F4A	26	Monopolar Coherence #Alpha for F3-F4							
+											
+Normal			vs	ADHD	|Normal|	ADHD|	2				
+ZRP		MRP4A	46	Monopolar Relative Power #Alpha for P4							
+ZCO		MCF1F2T	17	Monopolar Coherence #Theta for Fp1-Fp2							
+ZCO		MCP3P4B	36	Monopolar Coherence #Beta for P3-P4							
+ZAP		MAP3D	20	Monopolar Absolute Power #Delta for P3							
+ZIC		MIF1F3T	17	Monopolar Intrahemispheric Coherence #Theta for Fp1-F3							
+											
+ADHD			vs	Learning	Disability	|ADHD|	Learning_Disabled|	2			
+NRP		BRO2P4D	6	Bipolar Relative Power #Delta for O2-P4							
+NCO		BCFTD	4	Bipolar Coherence #Delta for Frontotemporal							
+ZRP		MRCzD	18	Monopolar Relative Power #Delta for Cz							
+ZRP		MRF1T	20	Monopolar Relative Power #Theta for Fp1							
+ZAS		MST5T6S	8	Monopolar Asymmetry #Total for T5-T6							
+ZCO		MCF7F8T	22	Monopolar Coherence #Theta for F7-F8							
+ZCO		MCF1F2A	25	Monopolar Coherence #Alpha for Fp1-Fp2							
+ZCO		MCP3P4B	36	Monopolar Coherence #Beta for P3-P4							
+											
+Normal			vs	Abnormal	|Normal|	Abnormal|	2				
+MAAntA		MAAntA	NaN	Unknown							
+MAPostT		MAPostT	NaN	Unknown							
+POF3FzB		POF3FzB	NaN	Unknown							
+BRF2F8D		BRF2F8D	841	Unknown							
+COF3F7T		COF3F7T	144	Unknown							
+MRF1T		MRF1T	293	Unknown							
+											
+Attention			Deficiet	vs	Autism	Spectrum	Disporder	|Attention_Deficiet|	Autism_Spectrum_Disporder|	2	
+MACentT		MACentT	100	Unknown							
+MIO2F8B		MIO2F8B	614	Unknown							
+COF1F2T		COF1F2T	134	Unknown							
+											
+Normal			Attention	Deficiet	Disorder	|Normal|	Attention_Deficiet_Disorder|	2			
+COF1F3T		COF1F3T	135	Unknown							
+BRF7T3T		BRF7T3T	897	Unknown							
+COF1F2T		COF1F2T	134	Unknown							
+BRF8T4D		BRF8T4D	864	Unknown							
+											
+Normal			vs	Autism	Spectrum	Disorder	|Normal|	Autism_Spectrum_Disorder|	2		
+BRF7T3T		BRF7T3T	897	Unknown							
+BRF8T4D		BRF8T4D	864	Unknown							
+											
+Normal			vs	Autism	Spectrum	Disorder	|Normal|	Autism_Spectrum_Disorder|	2		
+BReF7T3C		BRF7T3C	74	Unknown							
+BCoCentT		BCCentT	147	Unknown							
+MReCzD		MRCzD	305	Unknown							
+MReLHemA		MRLHemA	389	Unknown							
+MCoPostT		MCPostT	700	Unknown							
+MMFLAntD		MFLAntD	803	Unknown							
+MAsLatT		MSLatT	612	Unknown							
+MAbHeadD		MAHeadD	NaN	Unknown							
+MIcF4O2T		MIF4O2T	NaN	Unknown							
+MIaF4T6B		MIF4T6B	NaN	Unknown							
+											
+Normal			vs	Autism	|Normal|	Autism|	2				
+BCoCentT		BCCentT	147	Unknown							
+MReO2D		MRO2D	297	Unknown							
+MAbLHemC		MALHemC	NaN	Unknown							
+MAbCzD		MACzD	NaN	Unknown							
+MAbF4T		MAF4T	NaN	Unknown							
+MReC3T		MRC3T	328	Unknown							
+MReT6T		MRT6T	339	Unknown							
+MMFCzD		MFCzD	797	Unknown							
+											
+Normal			vs	Abnormal	|Normal|	Abnormal|	2				
+BReF8T4D		BRF8T4D	10	Unknown							
+BReF7T3T		BRF7T3T	22	Unknown							
+BCoCentT		BCCentT	147	Unknown							
+MRePzD		MRPzD	306	Unknown							
+MMFPzD		MFPzD	798	Unknown							
+MAbCzT		MACzT	NaN	Unknown							
+MIcF4O2T		MIF4O2T	NaN	Unknown							
+MIaO1F7C		MIO1F7C	NaN	Unknown							
+MIaO1F7A		MIO1F7A	NaN	Unknown							
+MCoAntB		MCAntB	726	Unknown							

@@ -1,0 +1,325 @@
+;
+; CLASIFNE.DAT file
+; note that comment lines start with ";" in column 1, and can only appear
+; just before a title.
+; A blank line separates each discriminant.
+; Each block consists of a title, on a single line; on the next line the group
+; titles, separated by spaces, then each of the variables with appropriate
+; coefficients for each group.  Note that "collapsed" variables are not
+; supported, and their components are listed individually.
+;
+;Normal vs Abnormal, Age 50 or Older - 5/22/87, SPECTRUM         BRL: 10/11/88
+Normal vs Abnormal, Age 50 or Older
+		      Normal  Abnormal
+NRP 9		  0.00001  0.00002
+NRP 22		 -0.02961  0.36594
+NRP 35		  0.05106 -0.25480
+NRP 48		  0.03480  0.31069
+NCO 34		 -0.00501  0.32559
+NCO 35		 -0.02934  0.59480
+NAS 41		 -0.02759  0.36308
+NAS 42		 -0.01403  0.44775
+ZAP 213		 -0.05146  0.61554
+ZAP 215		  0.00000  0.00000
+CONST 0		 -0.69861 -2.23015
+
+;Normal vs Abnormal, Below Age 50 - 5/22/87, SPECTRUM
+Normal vs Abnormal, Below Age 50
+          Normal  Abnormal
+NRP 9	  0.00000  0.00000
+NRP 22	  0.00000  0.00000
+NRP 35	  0.04777 -0.48710
+NRP 48	  0.02004  0.46486
+NCO 34	 -0.00612  0.30889
+NCO 35	 -0.02881  0.75448
+NAS 41	 -0.02686  0.38016
+NAS 42	 -0.01651  0.48136
+ZAP 213	 -0.05588  0.53385
+ZAP 214	  0.00000  0.00000
+CONST 0	 -0.69794 -2.08874		  
+
+;Normal vs Primary Depression - 6/2/87, SPECTRUM
+Normal vs Primary Depression
+		  Normal   Primary
+NRP 124	 -0.03746  0.75010
+NCO 3	 -0.02351 -0.50883
+NCO 35	 -0.05034  1.05778
+NAS 36	 -0.02733  0.55487
+NAS 42	 -0.02111  0.81269
+ZRP 217	 -0.10229  0.39695
+CONST 0	 -0.70165 -2.89319		  
+
+;Normal vs Primary Depression vs Dementia - 6/8/87, SPECTRUM
+Normal vs Primary Depression vs Dementia
+		  Normal   Primary Dementia
+NRP 22	 -0.02079  0.17234  1.30229
+NRP 124	 -0.04421  1.02014  0.04645
+NCO 3	 -0.00752 -0.74484 -0.27939
+NCO 4	 -0.00899 -0.53506  0.52687
+NCO 35	 -0.04753  0.77702  0.94400
+NAS 36	 -0.03740  0.57220  0.62493
+NAS 42	 -0.01438  0.64457  0.43654
+ZRP 37	 -0.00180 -0.79164  1.09048
+ZRP 45	 -0.24440  2.82880  1.73974
+ZRP 47	  0.27980 -4.06245 -1.92960
+ZRP 217	 -0.08958  0.35577  0.59821
+CONST 0	 -1.11186 -4.39809 -4.63901				   
+
+;Unipolar vs Bipolar Depression - 6/1/87, SPECTRUM
+Unipolar vs Bipolar Depression
+		 Unipolar  Bipolar
+NRP 29	 -0.06270 -1.59622
+NRP 30	 -0.72519  1.57794
+NRP 43	 -0.91564  1.26876
+NAS 4	  0.01198 -0.75104
+ZRP 187	 -0.15510  1.53144
+ZRP 62	  0.04106 -1.97474
+ZRP 75	  0.26946  1.57156
+ZAS 13	 -0.13401  0.13963
+CONST 0	 -0.89218 -2.09228		  
+
+;Elderly Dementia vs Alcoholic - 10/20/87, SPECTRUM
+Elderly Dementia vs Alcoholic
+		 Dementia  Alcoholic
+NRP 14	 -0.03469  0.91110
+NRP 15	  1.06487 -1.18625
+NRP 40	  0.03015  0.89450
+NCO 24	 -0.08565  0.89726
+ZAS 19	 -0.40997  0.09382
+CONST 0	 -1.82594 -1.98809		  
+
+;Bipolar Depression vs Alcoholic - 10/20/87, SPECTRUM
+Bipolar Depression vs Alcoholic
+		  Bipolar  Alcoholic
+NRP 45	  0.58452  0.08115
+NCO 3	 -0.72523 -0.20808
+NCO 4	 -0.95221  0.20967
+NCO 24	 -0.01620  0.45588
+NAS 41	  0.65121 -0.80888
+ZAP 55	  1.02508 -1.29232
+ZRP 202	  0.83039 -0.51708
+CONST 0	 -2.16285 -1.88824		  
+
+;Unipolar Depression vs Alcoholic - 10/20/87, SPECTRUM
+Unipolar Depression vs Alcoholic
+		 Unipolar Alcoholic
+NRP 40	 -0.12390  0.86921
+NRP 46	 -0.31110  0.86605
+NRP 118	  0.88585 -0.14734
+NCO 4	 -0.59866 -0.14523
+NCO 24	  0.00458  0.90921
+NAS 41	  0.50132 -0.57529
+CONST 0	 -1.71888 -2.47368		  
+
+;Primary Depression vs Alcoholic - 10/20/87, SPECTRUM
+Primary Depression vs Alcoholic
+		  Primary Alcoholic
+NRP 40	 -0.07380  0.58635
+NRP 46	 -0.08163  0.58543
+NRP 125	  0.76931 -0.20846
+NCO 4	 -0.80124 -0.05935
+NCO 25	 -0.26573  0.60565
+NAS 34	  0.45822 -0.59687
+ZRP 36	 -0.07747 -0.96582
+CONST 0	 -1.79117 -2.61208		  
+
+;Normal vs Alcoholic - TEST 081387A
+Normal vs Alcoholic
+		  Normal  Alcoholic
+NRP 33	  0.12729 -0.71768
+NRP 40	  0.01168  1.70051
+NRP 45	  0.10388 -1.07055
+NRP 119	  0.05683 -0.47071
+NAS 40	 -0.03253  1.12788
+ZCO 81	 -0.10545  0.60807
+CONST 0	 -0.70943 -3.43585		  
+
+;Vascular vs Non-vascular Elderly Dementia - 1/08/88 SPECTRUM
+Vascular vs Non-vascular Elderly Dementia
+		 Non-Vascular Vascular
+NCO 35	  0.68261 -1.05681
+NAS 14	 -0.18946  0.93496
+ZAP 147	  0.33342  1.76277
+ZRP 157	  0.58272  1.93800
+ZRP 165	 -0.02929 -1.92636
+ZCO 72	  0.28722  1.86863
+CONST 0	 -1.42453 -3.95867		  
+
+;Normal vs Learning Disabled Children - 1/8/88 SPECTRUM
+Normal vs Learning Disabled Children
+		  Normal  Learning_Disabled
+NRP 27   -0.00789 -0.05715
+NRP 28   -0.00789 -0.05715
+NRP 29   -0.00789 -0.05715
+NRP 30   -0.00789 -0.05715
+NRP 31   -0.00789 -0.05715
+NRP 32   -0.00789 -0.05715
+NRP 33   -0.00789 -0.05715
+NRP 34   -0.00789 -0.05715
+NAS 33	  0.17642 -0.30199
+NOM 6	  0.00343  0.52430
+ZAP 76	  0.15789 -0.76485
+ZRP 57	 -0.12530  0.72627
+ZAS 2	 -0.00443 -0.49412
+ZCO 18	  0.06347 -0.20188
+ZCO 84	 -0.00357  0.27760
+CONST 0	 -0.72469 -1.80925		  
+
+;Normal VS Adult Schizophrenic - Spectrum 1/90
+Normal vs Adult Schizophrenic
+		  Normal  Schizophrenic
+NRP 32	  0.08759 -0.61970
+NCO 20	 -0.03202  0.89967
+NCO 30	  0.09680  0.83092
+ZAP 200	  0.03490  1.08595
+ZMF 66	 -0.21841 -1.31636
+ZCO 20	  0.03292 -0.72417
+ZCO 39	  0.04077  0.93424
+ZCO 82	  0.03441  0.92030
+CONST 0	 -0.72668 -5.88003		  
+
+; Ritalin Responder vs Non-responder  -- test  06/19/87
+Ritalin Responder vs Non-responder
+		  Responder  Non-Responder
+NRP 8	  0.44817 -0.12967
+NRP 86	  1.89241  0.87168
+NCO 14	 -0.10405  0.88846
+NCO 15	 -0.34322  1.26527
+NCO 24	 -0.38291  0.28813
+CONST 0	 -2.02511 -1.48342		  
+
+;Normal vs Mild Head Injury    05/18/92
+Normal vs Mild Head Injury
+		 Normal    Head-Injured
+NCO 8	 -0.08126  -0.51718
+NAS 16	  0.03361  -0.67768
+ZAP 57	  0.22941  -1.26336
+ZRP 262	  0.03543	0.52345
+ZRP 263	  0.03543	0.51345
+ZMF 108	 -0.03598	0.21661
+ZMF 109	 -0.03598	0.21661
+ZMF 110	 -0.03598	0.21661
+ZMF 111	 -0.03598	0.21661
+ZAS 2	  0.19941  -0.77856
+ZIA 43	 -0.09511	0.30999
+ZIA 44	 -0.09511	0.30999
+ZCO 26	 -0.07315   1.39867
+CONST 0	 -0.73902  -2.95080
+
+;Normal vs Mild Head Injury (Test 2)  05/18/92
+Normal vs Mild Head Injury (Test 2)
+		  Normal    Head-Injured
+NCO 8		 -0.07866  -0.46509
+NAS 16	  0.04351  -0.53134
+ZAP 57	  0.24018  -1.10430
+ZMF 108	 -0.03263	0.26604
+ZMF 109	 -0.03263	0.26604
+ZMF 110	 -0.03263	0.26604
+ZMF 111	 -0.03263	0.26604
+ZAS 2	 	  0.18870  -0.93676
+ZIA 43	 -0.09048	0.37823
+ZIA 44	 -0.09048	0.37823
+ZCO 26	 -0.07446   1.37937
+CONST 0	 -0.73753  -2.62468
+
+;Normal vs ADHD 9/25/1998
+Normal vs ADHD
+		  Normal    ADHD
+ZRP 46	-0.07		0.43
+ZCO 17	-0.02		0.81
+ZCO 36	-0.04	       -0.82
+ZAP 20	 0.02		1.07
+ZIC 17	-0.01		1.39
+CONST 0	-0.697	       -3.25
+
+;ADHD vs Learning Disability 9/25/1998
+ADHD vs Learning Disability
+		  ADHD      Learning_Disabled
+NRP 6		-0.16		0.68
+NCO 4		 0.68	       -0.74
+ZRP 18	-0.28	       -0.03
+ZRP 20	 0.85	       -0.26
+ZAS 8		-0.82	       -0.09
+ZCO 22	 0.47	       -0.13
+ZCO 25	 0.47	       -0.18
+ZCO 36	-0.75		 0.17
+CONST 0	-2.79	       -1.34
+
+;Normal Abnormal
+Normal vs Abnormal
+		Normal	 Abnormal
+MAAntA    ***      0.05834      2.62165
+MAPostT   ***      0.21860      2.18554
+POF3FzB   ***      0.03236     -0.61312
+BRF2F8D   841      0.03785     -1.47999
+COF3F7T   144      0.07690      2.15924
+MRF1T     293     -0.00909      0.46009
+CONST 0 	-0.71838    -12.09455
+ 
+;Attention_Deficiet   Autism_Spectrum_Disporder  ADASD4
+Attention Deficiet vs Autism Spectrum Disporder
+		Attention_Deficiet   Autism_Spectrum_Disporder
+MACentT    100     8.03461      6.19734
+MIO2F8B    614    -1.28885     -2.12551
+COF1F2T    134     0.53710      1.07359
+CONST 0        -14.51565    -10.66204
+ 
+;Normal   Attention_Deficiet_Disorder  NLADD
+Normal   Attention Deficiet Disorder
+		Normal   Attention_Deficiet_Disorder
+COF1F3T   135     -0.07040      0.65386
+BRF7T3T   897      0.03408      1.20113
+COF1F2T   134     -0.00119      0.80324
+BRF8T4D   864     -0.00963     -1.21431
+CONST 0      -0.69621     -3.35327
+
+;Normal   Autism_Spectrum_Disorder      NLASD
+Normal vs  Autism Spectrum Disorder     
+			Normal   Autism_Spectrum_Disorder     
+BRF7T3T    897     0.03452      1.32668
+BRF8T4D    864     0.00432     -1.36041
+ CONST 0         -0.69379     -2.26525
+
+;Normal   Autism_Spectrum_Disorder      NLADE
+Normal vs  Autism Spectrum Disorder     
+			Normal   Autism_Spectrum_Disorder     
+BReF7T3C    074   -0.04300      0.29356
+BCoCentT    147    0.04374     -0.54288
+MReCzD      305    0.01444     -1.06982
+MReLHemA    389   -0.11112      0.23485
+MCoPostT    700   -0.08114      0.47202
+MMFLAntD    803    0.08923      1.15165
+MAsLatT     612    0.13552     -0.42520
+MAbHeadD    ***   -0.02842      0.37113
+MIcF4O2T    ***   -0.12504      0.42739
+MIaF4T6B    ***   -0.02925      0.16392
+ CONST 0         -0.72984     -2.95315
+
+;Normal Autism   NLAUC
+Normal vs Autism
+		Normal	 Autism
+BCoCentT   147     0.03623     -0.69619
+MReO2D     297    -0.04212     -0.43839
+MAbLHemC   ***    -0.07625      0.34026
+MAbCzD     ***    -0.03621     -2.61988
+MAbF4T     ***    -0.01719      1.81757
+MReC3T     328     0.03762     -1.05963
+MReT6T     339     0.01084      0.86738
+MMFCzD     797    -0.01577      1.25313
+ CONST 0         -0.69991     -4.63871
+
+;Normal Abnormal			NLADC
+Normal vs Abnormal
+		Normal	 Abnormal
+BReF8T4D   010     0.13983     -1.42977
+BReF7T3T   022     0.03311      1.00947
+BCoCentT   147     0.04769     -0.26055
+MRePzD     306    -0.11857     -0.92165
+MMFPzD     798     0.03266      1.17887
+MAbCzT     ***    -0.03268     -1.03922
+MIcF4O2T   ***    -0.11662      0.27333
+MIaO1F7C   ***    -0.01810      0.42535
+MIaO1F7A   ***    -0.03128     -1.10267
+MCoAntB    726    -0.00592      0.88319
+ CONST 0         -0.71461     -4.18840
+
