@@ -2,7 +2,6 @@
 function BDx
 %==========================================================================
 % BrainDx
-% Testing
 close all;
 global Cfg Flt hAxes;
 global lastPatient Chn;   % TODO obsolete
