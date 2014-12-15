@@ -2,6 +2,7 @@
 function BDx
 %==========================================================================
 % BrainDx
+% Another changes
 close all;
 global Cfg Flt hAxes;
 global lastPatient Chn;   % TODO obsolete
