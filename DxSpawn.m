@@ -155,7 +155,8 @@ switch Code
 	case 17 		% Export Data 
 		OutStr = DxDmp(Cfg.mscSess, Sess.mscID);
 	case 18 		% Report
-		OutStr = DxReport(Sess.mscID);
+		OutStr = DxReport(Sess.mscID,1);
+%1=EG, 2=IT, 3=PT(BR), 4=…
 		if iscell(OutStr)
 			DxLogFun(OutStr);
 		else
