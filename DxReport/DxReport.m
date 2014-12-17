@@ -1,8 +1,8 @@
-function[OutStr] = DxReport(MscID)
+function[OutStr] = DxReport(MscID,LANG)
 % Report Generator
 global Cfg;
 
-LANG = 2;  %1:EN, 2:IT, 3:DE
+%LANG = 2;  %1:EN, 2:IT, 3:PTBR 4:DE
 Append = 0;
 OutStr{1} = 'Start Report';
 %=======================================================
@@ -113,6 +113,12 @@ if LANG == 1
 	WordCOM.Selection.Range.Style = 'Heading 1';   % 3;
 elseif LANG == 2
 	WordCOM.Selection.Range.Style = 'Titolo 1';   % 3;
+elseif LANG == 3
+	WordCOM.Selection.Range.Style = 'Cabeçalho 1';   % 3;
+elseif LANG == 4
+	WordCOM.Selection.Range.Style = 'Titolo 1';   % 3;
+
+
 end
 WordCOM.Selection.TypeText('Table of Contents');    % Get the Heading
 WordCOM.Selection.TypeParagraph; %enter
