@@ -7,6 +7,13 @@ close all;
 global Cfg Flt hAxes;
 global lastPatient Chn;   % TODO obsolete
 
+%Creates and initializes the progress file used to update the loading bar.
+javaWorkspace = 'C:\GitHub\V1Sprint\';
+progressFile = strcat(javaWorkspace, 'progress.txt');
+fileID = fopen(progressFile, 'w');
+fprintf(fileID, '1');
+fclose(fileID);
+
 Refrsh = 1;     % Set after Select Patient to Update Database and GUI
 SYS = 1;
 Dn = datenum(date);
@@ -28,7 +35,16 @@ if SYS == 2
 end
 % Initialize Configuration
 DxCfgLst(0);
+%Update the progress file
+fileID = fopen(progressFile, 'w');
+fprintf(fileID, '2');
+fclose(fileID);
+
 Flt = DxFilterCfg(Cfg);
+%Update the progress file once more
+fileID = fopen(progressFile, 'w');
+fprintf(fileID, '3');
+fclose(fileID);
 
 S = winqueryreg('HKEY_LOCAL_MACHINE', 'HARDWARE\DESCRIPTION\System\CentralProcessor\0', 'Identifier');
 if strcmp(S(1:3), 'x86');
@@ -38,6 +54,10 @@ else
 end
 load([Cfg.BDx,'Param\biChn']);  %TODO move into Flt
 Chn.Root = Cfg.BDx;
+%Update the progress file once more
+fileID = fopen(progressFile, 'w');
+fprintf(fileID, '4');
+fclose(fileID);
 
 % At the start of each day we  update Patient Directory
 SaveStr = [Cfg.mscSess, 'Patientlist.mat'];
@@ -49,6 +69,12 @@ if exist(SaveStr,'file')
 end
 lastPatient = 1;
 DxLogFun;
+%Update the progress file one last time to signal closing of the loading
+%bar
+fileID = fopen(progressFile, 'w');
+fprintf(fileID, '5');
+fclose(fileID);
+
 initDisplay;
 %============================================================================
 % 1  1 'Import EEG'
